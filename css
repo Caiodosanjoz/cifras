@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width:100vh;
+    background: linear-gradient(45deg, #b9ecf0,#759de9);
+    background-size: 300%, 300%;
+    animation: color 10s ease infinite;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+
+header {
+    display:flex;
+    align-items: center;
+}
+
+#titulo {
+    
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 40px;
+    color: #2C2F40;
+    margin-top: 150px;
+}
+
+form {
+    border: #f8d99f solid 25px;
+    background-color: #f1690d;
+    border-radius: 20px;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#opçoes {
+    width: 250px;
+    height: 50px;
+    background-color:  #b9ecf0;
+    border: blue solid 2px;
+    color: #f7ab48;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#entradaMensagem {
+    width: 350px;
+    height: 80px;
+    background-color:  #b9ecf0;
+    border: blue solid 2px;
+    color: #f7ab48;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 102px;
+}
+
+#incremento {
+    display:none;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    background-color:  #b9ecf0;
+    border: blue solid 2px;
+    color: #f7ab48;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#submit {
+    display:none;
+    color: #f7ab48;
+    font-weight: bold;
+    background-color:  #b9ecf0;
+    font-size: 20px;
+
+}
+
+#codificar {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    color: #f7ab48;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+
+#decodificar {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    color: #f7ab48;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+
+}
+
+.saidaMensagem {
+    color: #8EA65B;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #f7ab48;
+    margin-top: 30px;
+}
