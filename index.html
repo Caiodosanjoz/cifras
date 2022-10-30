@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cifras.css">
+    <title>CoDecode</title>
+</head>
+
+<body>
+    <header>
+         <h1 id="titulo">CoDecode</h1>
+    </header>
+
+    <form>
+        <label for = 'entradaMensagem'></label>
+        <input type="text" id="entradaMensagem" placeholder="Escreva aqui"> <br>
+
+        <select id='opçoes'>
+            <option value="Escolha Aqui">Escolha Aqui</option>
+            <option value="cifraDeCesar">Cifra de Cesar</option>
+            <option value="base64">Base 64</option>
+        </select>
+
+        
+                <input type="number" id="incremento" placeholder="SEU NÚMERO" min="1" max="25"><br>
+        
+        <div class='radio'>
+            <input type="radio" id='code' name='radio-Cesar' value="radioCodificar"  checked>
+            <label for = 'codificar' id='codificar'> Codificar </label> <br>
+
+            <br>
+
+            <input type="radio" id='decode' name='radio-Cesar' value="radioecodificar"  checked>
+            <label for = 'codificar' id='decodificar'> Decodificar </label> <br>
+        </div>
+
+        <div>
+            <p class="saidaMensagem"></p>
+        </div>
+
+        <input type="submit" value="Codifica!" id="submit">
+        <input type="submit" value="Decodifica!" id="submit">
+        
+        
+       
+    </form>
+
+    <footer>© Caio dos Anjos</footer>
+
+    
+    <script src='cifras.js'></script>
+</body>
+</html>
